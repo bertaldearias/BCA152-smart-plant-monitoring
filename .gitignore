@@ -1,0 +1,29 @@
+
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Visual Studio Code
+.vscode/
+
+# ESP-IDF Configuration
+sdkconfig
+sdkconfig.*
+!sdkconfig.defaults
+
+# API Credentials and Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# System Files
+.DS_Store
+Thumbs.db
